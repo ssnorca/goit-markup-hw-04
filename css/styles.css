@@ -348,6 +348,9 @@ img {
   /*margin: auto; */
 }
 
+.team-social-svg {
+  fill: currentColor;
+}
 .icon .team-icon {
   flex-basis: calc(100% / 4 -30px);
   margin-left: 22px;
