@@ -234,7 +234,7 @@ img {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.benefits-icon {
+.icon {
   width: 264px;
   height: 112px;
   flex-shrink: 0;
@@ -336,22 +336,20 @@ img {
   color: var(--slate);
   font-weight: 400;
 }
-.icon {
+.social-team {
   display: flex;
 }
-.team-icon {
+.icon-item {
   background-image: url("../images/icons/ellipse.svg");
   width: 40px;
   height: 40px;
-  align-items: center;
-  justify-content: center;
   /*margin: auto; */
 }
 
 .team-social-svg {
   fill: currentColor;
 }
-.icon .team-icon {
+.social-team .icon-item {
   flex-basis: calc(100% / 4 -30px);
   margin-left: 22px;
   margin-top: 30px;
@@ -400,7 +398,7 @@ img {
   border-bottom: 1px solid var(--cornflower);
 }
 
-.customers {
+.partners {
   display: flex;
   gap: 24px;
 }
@@ -408,7 +406,7 @@ img {
   width: 168px;
   height: 88px;
 }
-.customers-link {
+.partners .item .link {
   width: 100%;
   height: 100%;
 
@@ -418,6 +416,11 @@ img {
   justify-content: center;
   align-items: center;
   color: #8e8f99;
+}
+.partners .item {
+  flex-basis: calc(100% / 6 -30px);
+  margin-left: 30px;
+  margin-top: 30px;
 }
 /* checked */
 .logo-link.footer {
