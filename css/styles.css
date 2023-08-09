@@ -148,7 +148,7 @@ img {
 /* checked */
 .nav-menu .page:hover,
 .nav-menu .page:focus,
-.nav-menu .page .current,
+.nav-menu .page.current,
 .contacts-menu .contact:hover,
 .contacts-menu .contact:focus {
   color: var(--iris);
@@ -409,11 +409,11 @@ img {
 .team-social-svg {
   fill: currentColor;
 }
-.social-team .icon-item {
+/* .social-team .icon-item {
   flex-basis: calc(100% / 4 -30px);
-  /* margin-left: 22px; */
+  margin-left: 22px;
   margin-top: 30px;
-}
+} */
 /* checked */
 .substrate {
   background-color: var(--white);
